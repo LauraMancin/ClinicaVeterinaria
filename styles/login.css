@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --creme: #faf7f2;
+    --verde: #7ba899;
+    --verde-claro: #a8c5bc;
+    --verde-escuro: #5a8a7a;
+    --rosa: #d4a5a5;
+    --rosa-claro: #edd5d5;
+    --marrom: #3d3530;
+    --marrom-claro: #8a7b74;
+    --creme-escuro: #f2ede6;
+    --borda: #ddd5cb;
+    --fonte-titulo: 'DM Serif Display', sans-serif;
+    --fonte-secundaria: 'Nunito', sans-serif;
+}
+
+
+body{
+    background-color: var(--creme);
+    color: var(--marrom);
+    font-family: var(--fonte-titulo);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    align-items: right;
+    align-content: right;
+}
+
+.tituloContainer{
+    font-weight: 300;
+    margin-bottom: 1px;
+}
+
+.subtituloContainer{
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: var(--fonte-secundaria);
+    color: var(--marrom-claro);
+}
+
+.botoesContainer{
+    background-color: var(--creme-escuro);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.botao{
+    font-family: var(--fonte-secundaria);
+    font-size: 12px;
+    background-color: var(--creme);
+    border-color: var(--creme);
+    padding: 15px;
+    align-items: center;
+    border-radius: 10px ;
+}
