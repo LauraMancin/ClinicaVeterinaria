@@ -21,6 +21,7 @@ body{
     background-color: var(--creme);
     color: var(--marrom);
     font-family: var(--fonte-titulo);
+    display: flex;
 }
 
 .container{
@@ -44,17 +45,55 @@ body{
 }
 
 .botoesContainer{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
     background-color: var(--creme-escuro);
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
+}
+
+.formularioContainer{
+    font-family: var(--fonte-secundaria);
 }
 
 .botao{
     font-family: var(--fonte-secundaria);
+    padding: 10px;
+    width: 150px;
+    gap: 20px;
+    align-items: center;
+    border-radius: 10px ;
     font-size: 12px;
     background-color: var(--creme);
     border-color: var(--creme);
+    color: var(--marrom-claro);
+}
+
+.botao:hover{
+    color: var(--marrom);
+}
+
+
+.inputContainer input{  
     padding: 15px;
+    width: 320px;
+    border-radius: 10px;
     align-items: center;
-    border-radius: 10px ;
+    
+}
+
+.botaoEntrar{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 320px;
+    border-radius: 10px;   
+    background-color: var(--verde-claro);
+    color: var(--creme);
+    
+}
+
+.botaoEntrar button{
+    background-color: none;
 }
